@@ -1,4 +1,4 @@
-import { Network, NodeType, TUuid, TSymbol, BlockExplorer } from '@types';
+import { Network, NodeType, TUuid, TTicker, BlockExplorer } from '@types';
 
 export const fNetwork: Network = {
   id: 'Ropsten',
@@ -41,7 +41,7 @@ export const fNetwork: Network = {
     '39a543b0-ac4f-5b14-9467-86fd6538a6a2'
   ] as TUuid[],
   baseAsset: '77de68da-ecd8-53ba-bbb5-8edb1c8e14d7' as TUuid,
-  baseUnit: 'RopstenETH' as TSymbol,
+  baseUnit: 'RopstenETH' as TTicker,
   nodes: [
     {
       name: 'ropsten_infura',
